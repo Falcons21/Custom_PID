@@ -5,6 +5,11 @@
 #include <Custom_PID.h>
 #include <Servo.h>
 
+/*
+* Roll Axis Test with Adafruit BNO055 
+* Requires Adafruit BNO055 Library and Adafruit Unified Sensor Library
+*/
+
 /* Set the delay between fresh samples */
 #define BNO055_SAMPLERATE_DELAY_MS (100)
 
@@ -17,12 +22,7 @@ Servo servoLeft;
 
 PID pid(1, 0, 0);
 
-/**************************************************************************/
-/*
-    Displays some basic information on this sensor from the unified
-    sensor API sensor_t type (see Adafruit_Sensor for more information)
-*/
-/**************************************************************************/
+
 void displaySensorDetails(void)
 {
   sensor_t sensor;
@@ -47,7 +47,7 @@ void displaySensorDetails(void)
 void setup(void)
 {
   Serial.begin(9600);
-  Serial.println("WebSerial 3D Firmware"); Serial.println("");
+  Serial.println("Roll Axis Test"); Serial.println("");
 
   /* Initialise the sensor */
   if(!bno.begin())
