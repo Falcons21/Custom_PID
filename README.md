@@ -7,4 +7,4 @@ This is an [Arduino Library](https://www.arduino.cc/en/Guide/Libraries)
 
 * by [Importing the .zip library](https://github.com/Falcons21/Custom_PID)
 
-The library comes with [examples](examples). After installing the library you need to restart the Arduino IDE before they can be found under **File > Examples > TheThingsNetwork**.
+The library comes with [examples](examples). After installing the library you need to restart the Arduino IDE before they can be found under **File > Examples > Custom PID**.
