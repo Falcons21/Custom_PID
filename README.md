@@ -1,5 +1,5 @@
 # Custom PID Library
-[![Build Status](https://travis-ci.org/TheThingsNetwork/arduino-device-lib.svg?branch=master)]()
+[![Build Status](https://travis-ci.org/TheThingsNetwork/arduino-device-lib.svg?branch=master)](#)
 
 This is an [Arduino Library](https://www.arduino.cc/en/Guide/Libraries)
 > At the moment this library requires devices Adafruit Unified Sensors Library and Adafruit BNO055 library
